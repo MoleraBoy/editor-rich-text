@@ -1,0 +1,41 @@
+body {
+    background: #fff0e3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff1ca, #e2cfbe);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e4d7b3, #c5854d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#fontes,
+#alinhamento,
+#transformar,
+#limpar {
+    border: none;
+}
+
+#botoes {
+    width: 35%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 652px;
+    height: 300px;
+    resize: none;
+}
+
+button#direita,
+#esquerda,
+#centro,
+#maimin,
+#minusculo,
+#maiusculo,
+#italico,
+#negrito {
+    border-style: solid;
+    border-color: black;
+}
